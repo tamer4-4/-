@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-color: rgb(196, 161, 116);">
+    
+  <div class="con" style="display: flex; justify-content: center;align-items: center;flex-direction: column;">
+    <h2>قائمه المهام</h2>
+  <ul id="taskLkist">
+    <li>مهمة 1</li>
+    <li>مهمة 2</li>
+  </ul>
+
+  <input  type="text" id="inp" placeholder="ادخل اسم المهمة ">
+  <br><br>
+
+ 
+  </div>
+ <div class="allBtn" style="display: flex; justify-content: center; align-items: center;">
+    <button style="background-color: rgb(217, 217, 228);  " id="add" >اضف فى اخر القائمه</button>
+    <button style="background-color: rgb(217, 217, 228);  " id="prepend" >اضف فى اول القائمه</button>
+    <button style="background-color: rgb(217, 217, 228);  " id="insertBefore" >اضف فى قبل اول مهمه </button>
+    <button style="background-color: rgb(217, 217, 228);  " id="insertAfter" >اضف فى بعد اول مهمة</button>
+    <button style="background-color: rgb(217, 217, 228);  " id="removeFirst" >حذف اول مهمة  </button>
+  
+ </div>
+    <script src="mine.js"></script>
+</body>
+</html>
